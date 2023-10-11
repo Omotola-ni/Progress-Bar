@@ -1,8 +1,4 @@
 # Progress-Bar
-An Animated Progress bar 
-Certainly, here's a short README description for your "My Progress Bar" code:
-
----
 
 **My Progress Bar - An Interactive Progress Bar**
 
