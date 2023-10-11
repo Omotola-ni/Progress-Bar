@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+#progressMeter {
+  width: 90%;
+  height: 20px;
+  background-color: transparent;
+  font-size: 15px;
+  color: white;
+}
+
+#percentage {
+  font-size: 30px;
+  color: purple;
+}
+
+.action-button {
+  width: 150px; /* Adjust the width as desired */
+  padding: 7px;
+  font-size: 14px;
+  background-color: #184d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.action-button-1 {
+  width: 150px; /* Adjust the width as desired */
+  padding: 7px;
+  font-size: 14px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.action-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: purple;
+}
+meter::-moz-meter-bar {
+  /* Firefox Pseudo Class */
+  background: purple;
+}
